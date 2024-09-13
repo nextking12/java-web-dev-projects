@@ -5,7 +5,7 @@ public class Course {
     String name;
     String location;
     Double grade;
-    HashMap<String, Double> nameGpa = new HashMap<>();
+    HashMap<String, Double> nameMap = new HashMap<>();
 
 
 
