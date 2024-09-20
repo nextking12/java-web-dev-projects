@@ -1,5 +1,11 @@
 package org.launchcode;
 public class BalancedBrackets {
+    private String str;
+
+    public BalancedBrackets(String str) {
+        this.str = str;
+    }
+
     /*
      * The function BalancedBrackets should return true if and only if
      * the input string has a set of "balanced" brackets.
